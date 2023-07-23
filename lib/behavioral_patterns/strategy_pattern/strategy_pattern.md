@@ -7,6 +7,7 @@ The strategy_pattern.dart file attached is an example of it.
 💡 If one day you decide to add an online payment process in your application, for example, using a deposit/credit card payment method, and after a period of time you are asked to add another payment method, for example, using PayPal or others.
 
 Would you change the writing of your code payment function every time you ask to add a new payment process ⁉️ 
+
 ❌ Of course no
 ✔️ But we will use the strategy pattern to separate these methods in concrete classes
 
