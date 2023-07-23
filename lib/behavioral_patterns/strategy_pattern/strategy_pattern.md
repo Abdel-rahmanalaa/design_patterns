@@ -9,7 +9,8 @@ The strategy_pattern.dart file attached is an example of it.
 Would you change the writing of your code payment function every time you ask to add a new payment process ⁉️ 
 
 ❌ Of course no
-✔️ But we will use the strategy pattern to separate these methods in concrete classes
+
+✔️ But we will use the strategy pattern to separate these methods into concrete classes
 
 # Structure
 ![Alt text](structure.png)
@@ -18,7 +19,7 @@ Would you change the writing of your code payment function every time you ask to
 2- PaymentStrategy abstract Class (Define a strategy interface) that has a pay method will be implemented by Concrete classes.
 3- CreditCardStrategy is a concrete class that implements PaymentStrategy, and therefore, @override pay method in his own way and also PayPallStrategy.
 
-😎 So that you can to add more than one payment process in your application, you just need to add NewPaymentProcessStrategy class.
+😎 To add more than one payment process to your application, you need to add NewPaymentProcessStrategy class.
 
 # Pros
 - You can replace inheritance with composition.
