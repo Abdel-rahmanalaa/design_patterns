@@ -36,7 +36,7 @@ class PayPallStrategy implements PaymentStrategy {
   }
 }
 
-//Define a context class that uses the strategy
+//context class
 class ShoppingCart {
   List<double> items = [];
 
