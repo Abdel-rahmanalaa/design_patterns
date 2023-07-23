@@ -15,11 +15,9 @@ Would you change the writing of your code payment function every time you ask to
 # Structure
 ![Alt text](structure.png)
 
-1- ShoppingCart Class (Define a context class that uses the strategy).
-
-2- PaymentStrategy abstract Class (Define a strategy interface) that has a pay method will be implemented by Concrete classes.
-
-3- CreditCardStrategy is a concrete class that implements PaymentStrategy, and therefore, @override pay method in his own way and also PayPallStrategy.
+1. ShoppingCart Class (Define a context class that uses the strategy).
+2. PaymentStrategy abstract Class (Define a strategy interface) that has a pay method will be implemented by Concrete classes.
+3. CreditCardStrategy is a concrete class that implements PaymentStrategy, and therefore, @override pay method in his own way and also PayPallStrategy.
 
 😎 To add more than one payment process to your application, you need to add NewPaymentProcessStrategy class.
 
